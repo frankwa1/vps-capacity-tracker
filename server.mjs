@@ -167,7 +167,8 @@ function toLocalIsoDate(d) {
 function previousNightMergeWindow(now = new Date()) {
   const today = new Date(now.getFullYear(), now.getMonth(), now.getDate());
   const yesterday = new Date(today);
-  yesterday.setDate(yesterday.getDate() - 1);
+    yesterday.setDate(yesterday.getDate() - 1);
+
   const start = new Date(yesterday);
   const yDay = yesterday.getDay();
   if (yDay === 0) start.setDate(start.getDate() - 2);
