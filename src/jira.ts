@@ -108,6 +108,7 @@ function sprintSortDateKey(sprint: JiraSprint): string {
  * Dropdown order: VPS weekly sprints from the current one forward (by date),
  * then older VPS sprints (newest first), then non-VPS sprints.
  * "All" is rendered separately and stays first in the UI.
+
  */
 export function sortSprintsForDropdown(sprints: JiraSprint[], today = new Date()): JiraSprint[] {
   const vps: JiraSprint[] = [];
