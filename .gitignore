@@ -1,0 +1,14 @@
+node_modules
+dist
+.vs/
+.DS_Store
+*.local
+.env.local
+jira.local.json
+*.vsidx
+*.sqlite
+*.suo
+*.user
+
+# Accidental local dumps / scratch files
+/2026-09-18
